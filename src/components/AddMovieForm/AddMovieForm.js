@@ -149,7 +149,7 @@ import styles from './AddMovieForm.module.css';
                Genre
              </label>
              <br />
-             <select className={styles.AddMovieForm__input} name="genre" id="" onChange={handleGenre} value={genre}>
+             <select className={styles.AddMovieForm__select} name="genre" onChange={handleGenre} value={genre}>
                <option value=""></option>
                <option value="Action">Action</option>
                <option value="Adventure">Adventure</option>
